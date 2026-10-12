@@ -1,0 +1,131 @@
+.link-box {
+    display: block;
+    padding: 28px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#new-tab {
+    background-color: #f8bbd0;
+}
+
+#new-tab a:link {
+    color: #ad1457;
+}
+
+#new-tab a:visited {
+    color: #6a1b9a;
+}
+
+#new-tab a:hover {
+    color: #ffffff;
+}
+
+#new-tab a:active {
+    color: #ffeb3b;
+}
+
+#same-tab {
+    background-color: #ab47bc;
+}
+
+#same-tab a:link {
+    color: #fff59d;
+}
+
+#same-tab a:visited {
+    color: #fce4ec;
+}
+
+#same-tab a:hover {
+    color: #4a148c;
+}
+
+#same-tab a:active {
+    color: #ffffff;
+}
+
+#same-tab-dark {
+    background-color: #4a148c;
+}
+
+#same-tab-dark a:link {
+    color: #ffffff;
+}
+
+#same-tab-dark a:visited {
+    color: #f8bbd0;
+}
+
+#same-tab-dark a:hover {
+    color: #f48fb1;
+}
+
+#same-tab-dark a:active {
+    color: #ffeb3b;
+}
+
+.page-title {
+    background-color: #fce4ec;
+    color: #8e24aa;
+    padding: 14px 18px;
+    border-radius: 8px;
+}
+
+.banner {
+    background-color: #ab47bc;
+    color: #ffffff;
+    padding: 14px 18px;
+    border-radius: 8px;
+}
+
+.formatting p {
+    font-size: 20px;
+}
+
+.features li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+caption {
+    font-weight: bold;
+    color: #6a1b9a;
+    padding-bottom: 8px;
+}
+
+th, td {
+    border: 1px solid #ce93d8;
+    padding: 8px 14px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+}
+
+tfoot th {
+    background-color: #fce4ec;
+    color: #ad1457;
+}
+
+.camelids {
+    width: 75%;
+}
+
+.camelids img {
+    width: 100%;
+    max-width: 360px;
+}
+
+mark {
+    background-color: #f8bbd0;
+    color: #880e4f;
+}
