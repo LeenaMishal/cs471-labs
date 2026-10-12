@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+{% block title %}Leena's Library | Book Details{% endblock title %}
+{% block content %}
+<a href="{% url 'books.list_books' %}">Go Back</a>
+<h1>Book Details</h1>
+<h2>Harry Potter and the Philosopher's Stone</h2>
+<h2>Author: J.K. Rowling</h2>
+<p><strong>Harry Potter and the Philosopher's Stone</strong> follows a young boy who discovers on his eleventh birthday that he is a wizard, and begins a new life at Hogwarts School of Witchcraft and Wizardry.</p>
+<p><strong>Why I love it:</strong> it is the book that made me fall in love with reading, and every time I return to it, it feels like coming home.</p>
+<img src="{% static 'book1.jpg' %}" alt="Harry Potter and the Philosopher's Stone cover" width="200" height="280">
+{% endblock content %}

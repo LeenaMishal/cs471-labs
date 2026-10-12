@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+{% block title %}Leena's Library | Books{% endblock title %}
+{% block stylesheets %}
+<style>
+    h1 {
+        color: #c2185b;
+    }
+    h2 {
+        color: #7b1fa2;
+    }
+    p {
+        font-family: verdana;
+        font-size: 18px;
+    }
+</style>
+{% endblock stylesheets %}
+{% block content %}
+<h1>My Favorite Books</h1>
+<a href="{% url 'books.view_one_book' 1 %}"><h2>1) Harry Potter and the Philosopher's Stone</h2></a>
+<a href="{% url 'books.view_one_book' 1 %}"><img src="{% static 'book1.jpg' %}" alt="Harry Potter and the Philosopher's Stone cover" width="200" height="280"></a>
+<p>J.K. Rowling</p>
+<hr>
+<h2>2) Atomic Habits</h2>
+<img src="{% static 'book2.jpg' %}" alt="Atomic Habits cover" width="200" height="280">
+<p>James Clear</p>
+<hr>
+<h2>3) حياة في الإدارة</h2>
+<img src="{% static 'book3.jpg' %}" alt="Hayat fi Al-Idara cover" width="200" height="280">
+<p>غازي القصيبي</p>
+<hr>
+{% endblock content %}
